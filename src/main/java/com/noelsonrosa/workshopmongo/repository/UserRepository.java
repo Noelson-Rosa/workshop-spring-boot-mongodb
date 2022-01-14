@@ -8,4 +8,5 @@ import com.noelsonrosa.workshopmongo.domain.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
 
+	//userReposiroty.saveAll(Arrays.asList("");
 }
